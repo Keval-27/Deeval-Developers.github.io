@@ -1,0 +1,154 @@
+.comment-section {
+    position: relative;
+    overflow: hidden;
+    padding: 3rem 0;
+    padding-bottom: 5rem;
+    /* height: 90vh; */
+}
+
+.comment-section h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: underline .2rem;
+    text-underline-offset: 1rem;
+}
+
+.comment-section span {
+    color: #05376b;
+}
+
+.comment-section p {
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.comment-container {
+    position: relative;
+    width: 100%;
+}
+
+.comment-box {
+    text-align: center;
+    width: 100%;
+    padding: 2rem 20rem;
+}
+
+.comment-box i {
+    color: #05376b;
+    font-size: 5rem;
+    padding-bottom: 2rem;
+}
+
+.dots {
+    justify-content: center;
+    display: flex;
+    bottom: 1rem;
+    padding: 1rem 0;
+
+}
+
+.dots span {
+    height: .5rem;
+    width: .5rem;
+    background-color: #0b0c10;
+    margin: 0 .3rem;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.comment-nav {
+    position: absolute;
+    width: 100%;
+    top: 90%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    bottom: 1rem;
+    color: #66fcf1;
+}
+
+.comment-nav span {
+    height: 1rem;
+    width: 1rem;
+    border: 2px solid #0b0c10;
+    margin: 0 .3rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.comment-box {
+    display: none;
+}
+
+.comment-box.active {
+    display: block;
+}
+
+#nxt,
+#previous {
+    color: #05376b;
+    position: absolute;
+    margin-top: 2rem;
+    font-size: 2rem;
+    padding: 0 1rem;
+    border: 2px solid;
+    cursor: pointer;
+}
+
+#nxt {
+    right: 13%;
+}
+
+#previous {
+    left: 13%;
+}
+
+
+@media (max-width:2600px) and (min-width : 1700px) {
+    .comment-section h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 2rem;
+    }
+
+    .dots span {
+        height: 1rem;
+        width: 1rem;
+    }
+
+    .comment-nav span {
+        height: 2rem;
+        width: 2rem;
+    }
+}
+
+@media (max-width:700px) {
+    .comment-section h1 {
+        font-size: 2rem;
+    }
+
+    .comment-box {
+        padding: 2rem 10rem;
+    }
+
+}
+
+@media (max-width:450px) {
+
+    .comment-box {
+        padding: 2rem 5rem;
+    }
+
+}

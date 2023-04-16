@@ -1,0 +1,550 @@
+@media (max-width:2660px) and (min-width : 1700px) {
+
+    /* main section */
+
+    .text {
+        padding: 3rem 10rem;
+        top: 60%;
+    }
+
+    .text h1 {
+        font-size: 4rem;
+    }
+
+    .text h2 {
+        font-size: 2rem;
+    }
+
+    /* Project Introduction */
+
+    .intro h1 {
+        font-size: 4rem;
+    }
+
+    .details {
+        padding: 3rem 20rem;
+        font-size: 2rem;
+    }
+
+    .size h1 {
+        font-size: 2rem;
+    }
+
+    .size h2 {
+        font-size: 1.5rem;
+    }
+
+    .size img {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    /* Amenities Section  */
+
+    .Amenities h1 {
+        font-size: 4rem;
+    }
+
+    .icons {
+        padding: 2rem 20rem;
+    }
+
+    .features h1 {
+        padding: 0;
+        padding-top: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .features img {
+        width: 9rem;
+        height: 9rem;
+    }
+
+    /* floor plan */
+
+    .floorplan h1 {
+        text-align: center;
+        font-size: 4rem;
+    }
+
+    .floor {
+        width: 80rem;
+        height: 60vh;
+    }
+
+    .slide i {
+        font-size: 6rem;
+    }
+
+    .slide-btn .right {
+        margin-top: -40rem;
+    }
+
+    .slide-btn .left {
+        margin-top: -40rem;
+    }
+
+    .sidearrow-visibility span {
+        height: 2rem;
+        width: 2rem;
+        margin-top: -8rem;
+    }
+
+    /* gallery */
+
+    .gallery-section h1 {
+        font-size: 4rem;
+    }
+
+    .galley {
+        width: 80rem;
+        height: 60vh;
+
+    }
+
+    .slide-btn1 .right1 {
+        margin-top: -40rem;
+        right: 10%;
+    }
+
+    .slide-btn1 .left1 {
+        margin-top: -40rem;
+        left: 10%;
+    }
+
+    .sidearrow-visibility1 span {
+        height: 2rem;
+        width: 2rem;
+        margin-top: -7rem;
+    }
+
+    .slide1 span {
+        cursor: pointer;
+        font-size: 6rem;
+        line-height: 3.5rem;
+        margin-left: 1.2rem;
+    }
+
+    /* location */
+    .location h1 {
+        font-size: 4rem;
+    }
+
+    .map iframe {
+        width: 80rem;
+        height: 60vh;
+    }
+
+    /* appointment */
+
+    .form-box form h2 {
+        font-size: 4rem;
+    }
+
+    .form-input {
+        width: 50rem;
+    }
+
+    .form-input input {
+        font-size: 2rem;
+    }
+
+    .form-input textarea {
+        font-size: 2rem;
+    }
+
+    .form-box form button {
+        height: 4rem;
+        font-size: 2rem;
+    }
+
+    .building-logo img {
+        width: 40rem;
+        height: 25rem;
+        margin-top: -15rem;
+    }
+
+    /* project by */
+    .project_by h1 {
+        font-size: 4rem;
+    }
+
+    .company_logo {
+        height: 20rem;
+    }
+
+    .company_logo img {
+        width: 15rem;
+        height: 15rem;
+        margin-bottom: 5rem;
+    }
+
+    .text1 p {
+        font-size: 2rem;
+    }
+}
+
+
+@media (max-width:1180px) {
+    .details {
+        padding: 3rem 7rem;
+    }
+
+    .size {
+        padding: 1rem 3rem;
+    }
+
+    /* floor plan */
+
+    .floor {
+        width: 50rem;
+        height: 60vh;
+    }
+
+    .sidearrow-visibility span {
+        margin-top: -1rem;
+    }
+
+    /* gallery */
+
+    .galley {
+        width: 50rem;
+        height: 60vh;
+    }
+
+    .sidearrow-visibility1 span {
+        margin-top: -1rem;
+    }
+
+}
+
+@media(max-width:900px) {
+    .icon {
+        padding: 3rem 13rem;
+    }
+
+
+    .size:nth-child(3) {
+        border: none;
+    }
+
+    /* floor plan */
+
+    .floor {
+        width: 40rem;
+        height: 50vh;
+    }
+
+    .slider-img {
+        margin-top: -7rem;
+    }
+
+    .sidearrow-visibility {
+        margin-top: -10rem;
+    }
+
+
+    .slide-btn .right {
+        margin-top: -27rem;
+    }
+
+    .slide-btn .left {
+        margin-top: -27rem;
+    }
+
+    /* gallery */
+
+    .galley {
+        width: 40rem;
+        height: 50vh;
+    }
+
+    .gallery-img {
+        margin-top: -7rem;
+    }
+
+
+    .slide-btn1 .right1 {
+        margin-top: -27rem;
+    }
+
+    .slide-btn1 .left1 {
+        margin-top: -27rem;
+    }
+
+    .sidearrow-visibility1 {
+        margin-top: -10rem;
+    }
+
+    /* location */
+
+    .map iframe {
+        width: 35rem;
+        height: 45vh;
+    }
+}
+
+
+@media(max-width:740px) {
+
+    .details {
+        padding: 3rem 5rem;
+        font-size: 1.1rem;
+    }
+
+    .icon {
+        padding: 3rem 8rem;
+    }
+
+    .size:nth-child(3) {
+        border: 0;
+        padding: 1.7rem;
+    }
+
+    /* amenities */
+
+    .icons {
+        padding: 3rem 10rem;
+    }
+
+    /* floor plan */
+
+    .floor {
+        width: 30rem;
+        height: 40vh;
+    }
+
+    .slider-img {
+        margin-top: -10rem;
+    }
+
+    .sidearrow-visibility {
+        margin-top: -13rem;
+    }
+
+
+    .slide-btn .right {
+        margin-top: -30rem;
+    }
+
+    .slide-btn .left {
+        margin-top: -30rem;
+    }
+
+
+    /* gallery */
+
+    .galley {
+        width: 30rem;
+        height: 40vh;
+    }
+
+    .gallery-img {
+        margin-top: -10rem;
+    }
+
+
+    .slide-btn1 .right1 {
+        margin-top: -30rem;
+    }
+
+    .slide-btn1 .left1 {
+        margin-top: -30rem;
+    }
+
+    .sidearrow-visibility1 {
+        margin-top: -13rem;
+    }
+
+    /* amenities */
+
+    .appointment-container {
+        flex-direction: column;
+    }
+
+    .building-logo {
+        padding: 5rem 0;
+        padding-right: 0rem;
+        align-items: center;
+    }
+
+}
+
+@media (max-width:570px) {
+
+    .text {
+        padding: 2rem 5rem;
+    }
+
+    .text h1 {
+        font-size: 2rem;
+    }
+
+    /* project section */
+
+    .intro h1 {
+        font-size: 2rem;
+    }
+
+    .details {
+        padding: 3rem;
+    }
+
+    .icon {
+        padding: 3rem 2rem;
+    }
+
+    .size {
+        padding: 1rem 0;
+    }
+
+    .size h1 {
+        font-size: 1.1rem;
+    }
+
+    .size img {
+
+        width: 4rem;
+        height: 4rem;
+    }
+
+    /* amenities */
+
+    .Amenities h1 {
+        font-size: 2rem;
+    }
+
+    .icons {
+        padding: 3rem 3rem;
+    }
+
+    .features h1 {
+        font-size: .9rem;
+    }
+
+    .features img {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    /* floor plan */
+
+    .floorplan h1 {
+        font-size: 2rem;
+    }
+
+    .floor {
+        width: 20rem;
+        height: 30vh;
+    }
+
+    .slider-img {
+        margin-top: -15rem;
+    }
+
+
+
+    .sidearrow-visibility {
+        margin-top: -15rem;
+    }
+
+    /* gallery */
+
+    .gallery-section h1 {
+        font-size: 2rem;
+    }
+
+    .galley {
+        width: 20rem;
+        height: 30vh;
+    }
+
+    .gallery-img {
+        margin-top: -15rem;
+    }
+
+    .sidearrow-visibility1 {
+        margin-top: -15rem;
+    }
+
+    /* location */
+
+    .location h1 {
+        font-size: 2rem;
+    }
+
+    .map iframe {
+        width: 25rem;
+        height: 35vh;
+    }
+
+    .form-box form h2 {
+        font-size: 2rem;
+        color: #66fcf1;
+        text-align: center;
+        /* text-transform: uppercase; */
+        text-decoration: underline .2rem;
+        text-underline-offset: 1rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media(max-width:410px) {
+
+    .text {
+        padding: 2rem;
+    }
+
+    .text h1 {
+        font-size: 1.5rem;
+    }
+
+    /* project section */
+
+    .details {
+        padding: 3rem 2rem;
+        font-size: 1.1rem;
+    }
+
+    .size {
+        border: none;
+    }
+
+    /* amenities section */
+
+    .features {
+        width: 18rem;
+    }
+
+    /* floorplan */
+
+    .slide-btn .right {
+        right: 0%;
+    }
+
+    .slide-btn .left {
+        left: 0%;
+    }
+
+    /* gallery */
+
+    .slide-btn1 .right1 {
+        right: 0%;
+    }
+
+    .slide-btn1 .left1 {
+        left: 0%;
+    }
+
+    /* appointment */
+
+    .form-box form h2 {
+        font-size: 1.3rem;
+    }
+
+    .form-input {
+        margin: 1rem 0;
+        width: 15rem;
+        border-bottom: 2px solid #66fcf1;
+    }
+}

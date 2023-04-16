@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Home</title>
+    <link rel="icon" type="image/x-icon" href="image\Website logo.png" />
+    <!---------------------------------------------------
+                        Css file link
+     ----------------------------------------------------->
+    <link rel="stylesheet" href="navigation.css" />
+    <link rel="stylesheet" href="we-buy-land.css" />
+    <link rel="stylesheet" href="Quicklink.css" />
+    <link rel="stylesheet" href="swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <!---------------------------------------------------
+                        Header section starts
+     ----------------------------------------------------->
+    <header class="header">
+      <div class="logo">
+        <img src="image\Website logo.png" alt="" />
+      </div>
+      <!-- Navigation bar starts -->
+      <nav>
+        <div class="navbar">
+          <ul class="navbar-list">
+            <li><a class="navbar-link home-page" href="Home.html">Home</a></li>
+            <li class="dropdown" onclick="onclickfunction()">
+              <a class="navbar-link nested-nav"> Projects <i class="fa fa-caret-down"></i></a>
+
+              <ul class="nested-list" id="mydropdown">
+                <li onclick="allfunction()"><a class="subnav-link" href="#project">ALL</a></li>
+                <li onclick="westernfunction()">
+                  <a class="subnav-link" href="#project">WESTERN</a>
+                </li>
+                <li onclick="centralfunction()">
+                  <a class="subnav-link" href="#project">CENTRAL</a>
+                </li>
+                <li onclick="harbourfunction()">
+                  <a class="subnav-link" href="#project">HARBOUR</a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown" onclick="onclickfunction2()">
+              <a class="navbar-link nested-nav">Service <i class="fa fa-caret-down"></i> </a>
+
+              <ul class="nested-list" id="mydropdown2">
+                <li><a class="subnav-link" href="we-buy-land.html">WE BUY LAND</a></li>
+                <li><a class="subnav-link" href="custom-home.html">CUSTOM HOMES</a></li>
+                <li><a class="subnav-link" href="Redevelopment.html">REDEVELOPMENT</a></li>
+              </ul>
+            </li>
+            <li><a class="navbar-link" href="About-us.html">About us</a></li>
+            <li>
+              <a class="navbar-link" href="Contact-us.html">Contact us</a>
+            </li>
+            <!-- <li><a class="navbar-link" href="#">Register</a></li> -->
+          </ul>
+        </div>
+      </nav>
+      <!-- Navigation bar ends -->
+      <!-- Menu-button -->
+      <div class="navbar-btn">
+        <ion-icon name="menu-outline" class="nav-icon"></ion-icon>
+        <ion-icon name="close-circle-outline" class="nav-icon"></ion-icon>
+      </div>
+    </header>
+    <!---------------------------------------------------
+                        Header section ends
+     ----------------------------------------------------->
+
+    <!---------------------------------------------------
+                        Main section starts
+     ----------------------------------------------------->
+
+    <section class="buyland-main">
+      <div class="buyland-text">
+        <h1>We buy Land</h1>
+      </div>
+    </section>
+
+    <!-- content section -->
+
+    <section class="content-section">
+      <h1>Do you have land to sell?</h1>
+      <div class="content-container">
+        <div class="conent-image">
+          <img src="buy land\image 1.avif" alt="" />
+        </div>
+        <div class="content-text">
+          <p>
+            Deeval Developers is on the lookout for great spots of land on which families can build
+            their new home. We are looking to acquire real estate throughout some key areas.
+          </p>
+
+          <p>
+            the Deeval have developed and built award-winning communities throughout the greater
+            Seattle region. We understand and appreciate the value of your land and have built a
+            reputation by using a simple, straightforward transaction process built on trust and
+            integrity.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- benefit section -->
+
+    <section class="benefit">
+      <h1>Benefits of selling your property to us</h1>
+      <div class="benefit-container">
+        <div class="benefit-box">
+          <img src="buy land\market value.webp" alt="" />
+          <h1>Sell your home for above market value</h1>
+        </div>
+
+        <div class="benefit-box">
+          <img src="buy land\home.webp" alt="" />
+          <h1>Avoid staging, listing, or showing your home</h1>
+        </div>
+
+        <div class="benefit-box">
+          <img src="buy land\date.webp" alt="" />
+          <h1>Choose your own closing date</h1>
+        </div>
+      </div>
+      <p>
+        If you have land or an older home available for purchase, are thinking of selling, and would
+        like to find out more details, please fill out the form below...
+      </p>
+    </section>
+
+    <!-- form section -->
+
+    <section class="form-container">
+      <div class="form-details">
+        <form method="post" action="">
+          <h1>Contact Us About Your Property</h1>
+          <h3>PLEASE FILL YOUR DETAILS BELOW</h3>
+          <div class="input">
+            <input type="text" placeholder="Name" required />
+          </div>
+          <div class="input">
+            <input type="email" placeholder="Email" required />
+          </div>
+          <div class="input">
+            <input type="tel" placeholder="Phone Number" required />
+          </div>
+          <div class="input">
+            <input type="text" placeholder="Property Address" required />
+          </div>
+          <div class="input">
+            <input type="text" placeholder="LOT SQUARE FOOTAGE" />
+          </div>
+          <div class="input">
+            <input type="text" placeholder="DESIRED SELLING PRICE" />
+          </div>
+          <div class="input">
+            <textarea name="info" rows="2" cols="50" placeholder="Message" required></textarea>
+          </div>
+          <button type="submit" name="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!---------------------------------------------------
+                        Main section Ends
+     ----------------------------------------------------->
+
+    <!---------------------------------------------------
+                        Footer section starts
+     ----------------------------------------------------->
+
+    <footer class="footer">
+      <section on class="flex">
+        <div class="box">
+          <h1>Contact us</h1>
+          <a href="tel:123456789"><i class="fas fa-phone"></i><span>9967990931</span></a>
+          <a href="tel:112233445"><i class="fas fa-phone"></i><span>961987045</span></a>
+          <a href="mailto:ksiddhapura07@gmail.com"
+            ><i class="fas fa-envelope"></i><span>ksiddhapura07@gmail.com</span></a
+          >
+          <a href=""><i class="fas fa-home"></i><span>Mumbai , India-400066</span></a>
+        </div>
+
+        <div class="box">
+          <h1>Quicklinks</h1>
+          <a href="Home.html"><span>Home</span></a>
+          <a href="#project"><span>Projects</span></a>
+          <a href="Home.html"><span>We buy land</span></a>
+          <a href="Home.html"><span>Custom Homes</span></a>
+          <a href="Home.html"><span>Reconstruction</span></a>
+          <a href="contact.html"><span>Contact</span></a>
+          <a href="about.html"><span>About</span></a>
+        </div>
+
+        <div class="box">
+          <h1>Find us</h1>
+          <a href="https://instagram.com/deeval_developers?igshid=YmMyMTA2M2Y="
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="https://wa.me/9967990931"> <i class="fab fa-whatsapp"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+        </div>
+      </section>
+      <div class="credit">
+        &copy; copyright @ 2023 by <span>KD GROUP</span> | all rights reserved!
+      </div>
+    </footer>
+
+    <!---------------------------------------------------
+                        Footer section ends
+     ----------------------------------------------------->
+    <!---------------------------------------------------
+                        Scroll up button 
+     ----------------------------------------------------->
+    <button class="top">
+      <i class="fas fa-angle-up"></i>
+    </button>
+
+    <!---------------------------------------------------
+                      Javascript file link
+     ----------------------------------------------------->
+    <script src="scrollup.js"></script>
+    <script src="nav-click.js"></script>
+    <script src="image-slider.js"></script>
+    <script src="counter.js"></script>
+    <script src="project.js"></script>
+    <script src="comment.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <!-- <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> -->
+  </body>
+</html>

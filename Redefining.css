@@ -1,0 +1,159 @@
+.Redefining {
+    width: 100%;
+    background-image: linear-gradient(90deg, #c5c6c7, #edf5e1);
+}
+
+.Redefining-container {
+    padding: 3rem 0;
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: space-between;
+    /* place-items: center; */
+}
+
+.Redefining-image1 img {
+    width: 20rem;
+    height: 70vh;
+}
+
+.Redefining-image2 img {
+    width: 40rem;
+    height: 70vh;
+}
+
+.Redefining-content {
+    padding: 4rem 2rem;
+    width: 50%;
+}
+
+.Redefining-content h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding: 2rem 0;
+}
+
+.Redefining-content span {
+    color: #05376b;
+    font-weight: 700;
+}
+
+.Redefining-content p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+/* Responsive Code */
+
+
+@media (max-width:2600px) and (min-width : 1700px) {
+    .Redefining-content p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:1400px) {
+    .Redefining-image1 img {
+        width: 20rem;
+        height: 65vh;
+    }
+
+    .Redefining-image2 img {
+        width: 30rem;
+        height: 65vh;
+    }
+
+    .Redefining-content h1 {
+        font-size: 2rem;
+    }
+}
+
+
+@media (max-width:900px) {
+    .Redefining-image1 img {
+        width: 15rem;
+        height: 55vh;
+    }
+
+    .Redefining-image2 img {
+        width: 25rem;
+        height: 55vh;
+    }
+
+
+}
+
+@media (max-width:750px) {
+    .Redefining-container {
+        flex-direction: column;
+        /* place-items: center; */
+        align-items: center;
+        gap: 2rem;
+        padding: 3rem 0;
+    }
+
+    .Redefining-image1 img,
+    .Redefining-image2 img {
+        width: 50rem;
+        height: 60vh;
+    }
+
+    .Redefining-content {
+        padding: 2rem 0;
+        width: 80%;
+    }
+
+    .Redefining-content h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width:600px) {
+
+    .Redefining-image1 img,
+    .Redefining-image2 img {
+        width: 35rem;
+        height: 45vh;
+    }
+
+    .Redefining-content {
+        width: 90%;
+    }
+
+}
+
+@media (max-width:425px) {
+
+    .Redefining-image1 img,
+    .Redefining-image2 img {
+        width: 26.5rem;
+        height: 35vh;
+    }
+
+    .Redefining-content {
+        padding: 2rem 1rem;
+        width: 100%;
+    }
+
+    .Redefining-content h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:310px) {
+
+    .Redefining-image1 img,
+    .Redefining-image2 img {
+        width: 20rem;
+        height: 25vh;
+    }
+
+    .Redefining-content {
+        padding: 2rem 1rem;
+        width: 100%;
+    }
+
+    .Redefining-content h1 {
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,133 @@
+/*-------> ===========================
+          Footer code
+============================<---------*/
+
+.footer {
+  /* background-color: #45a29e; */
+  background-image: linear-gradient(90deg, #45a29e, #0655d4);
+}
+
+.flex {
+  /* width: 100%;
+  height: 70vh; */
+  padding: 0 5rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+.flex h1 {
+  margin-bottom: 1.5rem;
+}
+
+.footer .flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.footer .flex .box {
+  flex: 1 1 10rem;
+}
+
+.footer .flex .box a {
+  display: block;
+  padding: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.footer .flex .box a span {
+  color: #0b0c10;
+}
+
+.footer .flex .box a span:hover {
+  text-decoration: underline;
+  font-size: 1.4rem;
+}
+
+.footer .flex .box a i {
+  color: #0b0c10;
+}
+
+/* 
+.footer .flex .box a i:hover {
+  color: #c5c6c7;
+} */
+
+.footer .flex .box:last-child {
+  text-align: center;
+}
+
+.footer .flex .box:last-child a i {
+  justify-content: center;
+  line-height: 3rem;
+  width: 3rem;
+  height: 3rem;
+  font-size: 2rem;
+  border-radius: 50%;
+}
+
+.footer .flex .box:last-child a i:hover {
+  background-color: #0b0c10;
+  color: #c5c6c7;
+}
+
+.footer .flex .box:first-child a i {
+  margin-right: 1rem;
+}
+
+footer .flex .box:nth-child(2) {
+  text-align: center;
+  align-items: center;
+}
+
+.credit {
+  padding: 1rem 1rem;
+  text-align: center;
+  border-top: solid #1f2833;
+  font-size: 1rem;
+  color: #0b0c10;
+  margin-top: 1rem;
+}
+
+.credit span {
+  color: #05376b;
+}
+
+/*-------> ===========================
+         Responsive code  
+============================<---------*/
+
+@media (max-width: 710px) {
+  .flex {
+
+    padding: 3rem 0;
+
+  }
+
+  footer .flex {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+
+  }
+
+  .footer .flex .box:last-child h1 {
+    width: 7rem;
+  }
+
+  footer .flex .box:last-child a {
+    width: 7rem;
+  }
+
+  .footer .flex .box:first-child a {
+    width: 17rem;
+  }
+
+  .box:first-child {
+    padding-left: 7rem;
+  }
+}
+
+
+@media (max-width: 350px) {}

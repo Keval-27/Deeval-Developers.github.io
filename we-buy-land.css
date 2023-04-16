@@ -1,0 +1,300 @@
+.buyland-main {
+    background-image: url("buy land/background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.buyland-text {
+    padding: 2rem 8rem;
+    position: absolute;
+    background-color: black;
+    top: 60%;
+    color: #66fcf1;
+}
+
+.buyland-text h1 {
+    font-size: 2.5rem;
+}
+
+/* content section */
+
+.content-section {
+    width: 100%;
+    height: auto;
+    padding: 3rem 0;
+}
+
+.content-section h1 {
+    text-align: center;
+    color: #05376b;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+.content-container {
+    display: flex;
+    padding: 0 15rem;
+}
+
+.content-text {
+    width: 30rem;
+}
+
+.content-text p {
+    padding: 0 1rem 1rem 1rem;
+    line-height: 1.7rem;
+}
+
+.conent-image img {
+    width: 30rem;
+    height: 20rem;
+}
+
+/* benefit section */
+
+.benefit {
+    width: 100%;
+    height: 100%;
+    padding: 3rem 0;
+    background-color: #edf5e1;
+}
+
+.benefit h1 {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    color: #05376b;
+}
+
+.benefit p {
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 0 15rem;
+    color: #05376b;
+}
+
+.benefit-container {
+    width: 100%;
+    height: auto;
+    padding: 4rem 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.benefit-box {
+    padding: 1rem;
+    width: 20rem;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: .5rem;
+}
+
+.benefit-box img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.benefit-box h1 {
+    font-size: 1rem;
+}
+
+/* form section */
+
+.form-container {
+    display: flex;
+    width: 100%;
+    min-height: 75vh;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+.form-details {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 3rem;
+    border-radius: .5rem;
+}
+
+form h1 {
+    font-size: 2rem;
+    padding: 1rem 0;
+    color: #05376b;
+    text-align: center;
+}
+
+form h3 {
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.input {
+    position: relative;
+    margin: 1rem 0;
+    border-bottom: 2px solid #0b0c10;
+    justify-content: center;
+    color: #05376b;
+}
+
+.input input {
+    text-transform: uppercase;
+    width: 100%;
+    /* max-width: 30rem; */
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    margin: .5rem 1rem;
+    color: #05376b;
+    font-weight: 700;
+}
+
+.input textarea {
+    text-transform: uppercase;
+    /* max-width: 30rem; */
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 0 1rem;
+    color: #05376b;
+    font-weight: 700;
+}
+
+form button {
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-size: 1rem;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    padding: .5rem 3rem;
+    cursor: pointer;
+    background-color: #05376b;
+    color: #fff;
+    font-weight: 700;
+    transition: all .5s;
+}
+
+form button:hover {
+    background-color: #031533;
+}
+
+
+/* responsive code */
+
+@media(max-width:1160px) {
+
+    /* content section */
+
+    .content-container {
+        padding: 0 10rem;
+    }
+
+    /* benefit section */
+
+    .benefit-container {
+        padding: 4rem 5rem;
+    }
+
+    .benefit-box {
+        width: 17rem;
+    }
+
+}
+
+@media(max-width:900px) {
+
+    /* content section */
+
+    .content-container {
+        padding: 0 5rem;
+    }
+
+    /* benefit section */
+
+    .benefit p {
+        padding: 0 10rem;
+    }
+
+}
+
+@media(max-width:750px) {
+
+    /* content section */
+
+    .content-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content-text {
+        padding: 2rem 0rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* benefit section */
+
+    .benefit-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .benefit-box {
+        width: 30rem;
+    }
+}
+
+@media(max-width:450px) {
+    .buyland-text {
+        padding: 2rem 4rem;
+    }
+
+    .buyland-text h1 {
+        font-size: 2rem;
+    }
+
+    /* content section */
+
+    .content-container {
+        padding: 0 1rem;
+    }
+
+    .conent-image img {
+        width: 20rem;
+        height: 10rem;
+    }
+
+    /* benefit section */
+
+    .benefit-container {
+        padding: 2rem;
+    }
+
+    .benefit-box {
+        width: 20rem;
+    }
+
+    .benefit p {
+        padding: 0 2rem;
+    }
+
+    /* form section */
+
+    .form-container {
+        padding: 3rem 2rem;
+    }
+
+    form h1 {
+        font-size: 1.5rem;
+
+    }
+
+
+}

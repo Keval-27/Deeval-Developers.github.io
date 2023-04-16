@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redevelopment</title>
+    <link rel="icon" type="image/x-icon" href="Redevelopment\redevelopment form.jfif" />
+
+    <!---------------------------------------------------
+                        Css file link
+     ----------------------------------------------------->
+    <link rel="stylesheet" href="navigation.css" />
+    <link rel="stylesheet" href="Redevelopment.css" />
+    <link rel="stylesheet" href="Quicklink.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!---------------------------------------------------
+                        Header section starts
+     ----------------------------------------------------->
+    <header class="header">
+      <div class="logo">
+        <img src="image\Website logo.png" alt="" />
+      </div>
+
+      <!-- Navigation bar starts -->
+
+      <nav>
+        <div class="navbar">
+          <ul class="navbar-list">
+            <!-- <li><a class="navbar-link home-page" href="Home.html">Home</a></li> -->
+            <li class="dropdown" onclick="onclickfunction()">
+              <a class="navbar-link nested-nav"> Projects <i class="fa fa-caret-down"></i></a>
+
+              <ul class="nested-list" id="mydropdown">
+                <li onclick="allfunction()"><a class="subnav-link" href="#project">ALL</a></li>
+                <li onclick="westernfunction()">
+                  <a class="subnav-link" href="#project">WESTERN</a>
+                </li>
+                <li onclick="centralfunction()">
+                  <a class="subnav-link" href="#project">CENTRAL</a>
+                </li>
+                <li onclick="harbourfunction()">
+                  <a class="subnav-link" href="#project">HARBOUR</a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown" onclick="onclickfunction2()">
+              <a class="navbar-link nested-nav">Service <i class="fa fa-caret-down"></i> </a>
+
+              <ul class="nested-list" id="mydropdown2">
+                <li><a class="subnav-link" href="we-buy-land.html">WE BUY LAND</a></li>
+                <li><a class="subnav-link" href="custom-home.html">CUSTOM HOMES</a></li>
+                <li><a class="subnav-link" href="Redevelopment.html">REDEVELOPMENT</a></li>
+              </ul>
+            </li>
+            <li><a class="navbar-link" href="About-us.html">About us</a></li>
+            <li>
+              <a class="navbar-link" href="Contact-us.html">Contact us</a>
+            </li>
+            <!-- <li><a class="navbar-link" href="#">Register</a></li> -->
+          </ul>
+        </div>
+      </nav>
+      <!-- Navigation bar ends -->
+      <!-- Menu-button -->
+      <div class="navbar-btn">
+        <ion-icon name="menu-outline" class="nav-icon"></ion-icon>
+        <ion-icon name="close-circle-outline" class="nav-icon"></ion-icon>
+      </div>
+    </header>
+    <!---------------------------------------------------
+                        Header section ends
+     ----------------------------------------------------->
+
+    <!---------------------------------------------------
+                        Main section starts
+     ----------------------------------------------------->
+
+    <!-- heading name -->
+    <section class="heading-container">
+      <div class="heading-text">
+        <h1>REDEVELOPMENT</h1>
+        <h2>Let’s Get Better Together</h2>
+      </div>
+    </section>
+
+    <!-- redevelopment form -->
+
+    <section class="redevelopment-form">
+      <h1>Let us Help You <span>Redevelop</span></h1>
+      <div class="form-details">
+        <div class="form-box">
+          <form method="post" action="">
+            <div class="form-input">
+              <input type="text" placeholder="Name :" required />
+            </div>
+            <div class="form-input">
+              <input type="tel" placeholder="Phone Number :" required />
+            </div>
+            <div class="form-input">
+              <input type="text" placeholder="Address :" required />
+            </div>
+            <div class="form-input">
+              <input type="email" placeholder="Email :" required />
+            </div>
+            <div class="form-input">
+              <input type="text" placeholder="Approximate Plot Area :" required />
+            </div>
+            <div class="form-input">
+              <input type="text" placeholder="Number of Tenants :" required />
+            </div>
+            <button type="submit" name="submit">Submit</button>
+          </form>
+        </div>
+        <div class="redevelopment-image">
+          <img src="Redevelopment\redevelopment form.jfif" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- features section -->
+
+    <section class="feature-section">
+      <div class="feature-header">
+        <h1>WHY <span>DEEVAL</span></h1>
+        <p>
+          Founded on the principles of value and value delivery, redevelopment in Mumbai is taken up
+          by redevelopment builders like us. Here are some reasons why you ought to pick us.
+        </p>
+      </div>
+      <div class="feature-container">
+        <div class="feature-box">
+          <img src="Redevelopment\icon 1.png" alt="" />
+          <h4>Timely Delivery</h4>
+        </div>
+        <div class="feature-box">
+          <img src="Redevelopment\icon 2.png" alt="" />
+          <h4>Transparency</h4>
+        </div>
+        <div class="feature-box">
+          <img src="Redevelopment\icon 3.png" alt="" />
+          <h4>Professional Team</h4>
+        </div>
+        <div class="feature-box">
+          <img src="Redevelopment\icon 4.png" alt="" />
+          <h4>Market Leader</h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- info section -->
+
+    <section class="redevelopment-info">
+      <div class="redevelopment-box">
+        <div class="redevelopment-content">
+          <h1>Residential Redevelopment in <span>Mumbai</span></h1>
+          <p>
+            Mumbai is known as the city of dreams, a city that doesn't sleep or a city that's the
+            financial capital of a country with a population of 1.4 billion people. Being a
+            metropolitan city, it like any other city in the world has two sides to the same coin.
+            Mumbai is known to house some of the hyper rich people we find in the world. But on the
+            other side it also houses the biggest slum in the world. redevelopment in Mumbai is
+            taken up as a serious milestone to be achieved. We at Deeval realized & took seriously
+            the kind of work we do.
+          </p>
+
+          <p>
+            Considering the real estate market & its grip over the rising economy, redevelopment
+            builders have seen the kind of importance it holds. If an area needs attention & fixing
+            that is exactly what we give it.
+          </p>
+
+          <p>
+            Deeval, being committed to upgrading lifestyles while being into Real estate
+            redevelopment is significant when it comes to understanding the livelihood & functioning
+            of the city’s core. That is Its people. Deeval chooses to cater to the masses, as the
+            segment of goodwill it adds is noteworthy with many upcoming projects in Mumbai.
+          </p>
+
+          <p>
+            We provide signature homes that are a personalized class apart experience. Catering to a
+            wide pool of people. We are ranked amongst the top titans mentioned amidst real estate
+            developers in Mumbai curating remarkable landmarks that the city will one day be known
+            by.
+          </p>
+
+          <p>
+            With projects like Blumen in Vikhroli west, The palazzo in santacruz east & ananda in
+            the Borivali west, etc... we look forward to curating numerous upcoming projects in
+            Mumbai. Founded on the principles of values like transparency & timely deliveries we
+            know that owning a residential property in Mumbai is a dream of many people that the
+            Deeval Developers have taken up as a responsibility. With building redevelopment Mumbai,
+            we look forward to realizing the dreams of many.
+          </p>
+        </div>
+        <div class="redevelopment-img">
+          <img src="Redevelopment\before.jpg" alt="" />
+          <img src="Ananda Residency\gallery 1.jpg" alt="" />
+          <div class="img-text">
+            <h3>before</h3>
+          </div>
+          <div class="img-text">
+            <h3>after</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Faq section -->
+
+    <section class="faq-section">
+      <div class="faq-container">
+        <h1>FAQ's on Redevelopment</h1>
+        <div class="faq-box">
+          <div class="question">
+            <span>1</span>
+            <p>What documents are needed for the vetting process for redevelopment ?</p>
+            <span class="open active">+</span>
+            <span class="close">-</span>
+          </div>
+          <div class="answer">
+            <p>
+              The following documents are required for the vetting process for the redevelopment
+              Conveyance of Property:
+            </p>
+            <ul style="list-style-type: disc">
+              <li>Property Card in the name of the society</li>
+              <li>Old Occupation Certificate along with plans</li>
+              <li>CTS Plan</li>
+              <li>List of allotment members along with the carpet area</li>
+              <li>Development Plan remark</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="faq-box">
+          <div class="question">
+            <span>2</span>
+            <p>Are buyers protected, and if so, how ?</p>
+            <span class="open active">+</span>
+            <span class="close">-</span>
+          </div>
+          <div class="answer">
+            <p>
+              The Central Government of India drafted and approved the Real Estate Regulation and
+              Development Act of 2016 to protect house buyers while simultaneously encouraging
+              investment in the real estate business. Buyer complaints can be sent to MAHARERA for a
+              prompt response. The law addresses the entire process of buying a house as well as
+              redevelopment.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-box">
+          <div class="question">
+            <span>3</span>
+            <p>What are the stages of redevelopment ?</p>
+            <span class="open active">+</span>
+            <span class="close">-</span>
+          </div>
+          <div class="answer">
+            <p>The following are the steps of redevelopment:</p>
+            <ul style="list-style-type: disc">
+              <li>A general body meeting with a majority in favor of the redevelopment</li>
+              <li>A legal representative to appropriately guide the members</li>
+              <li>
+                Obtaining and scrutinizing bids from builders and selecting the appropriate builder
+                meeting the financing requirements.
+              </li>
+              <li>
+                Approval from necessary legal authorities and allotment of builder Signature on
+                various necessary documents to begin the process
+              </li>
+              <li>
+                Completing all financial and other obligations, and then ensuring that the building
+                is evacuated and ownership of the current premises is transferred to the designated
+                developer/builder
+              </li>
+              <li>
+                Post redevelopment, issuing Occupancy Certificate and handing over ownership back to
+                the owners.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="faq-box">
+          <div class="question">
+            <span>4</span>
+            <p>Who can go into redevelopment ?</p>
+            <span class="open active">+</span>
+            <span class="close">-</span>
+          </div>
+          <div class="answer">
+            <p>
+              A building that has not used the full potential of the site under the current DC
+              standards may be redeveloped. This is conditional on both the housing society and the
+              owner possessing a clear, marketable title.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-box">
+          <div class="question">
+            <span>5</span>
+            <p>What are the statutory payments and who bears these costs ?</p>
+            <span class="open active">+</span>
+            <span class="close">-</span>
+          </div>
+          <div class="answer">
+            <p>
+              When a redevelopment project is in the process the statutory payments are paid by the
+              developer. Additional payments or any outstanding payment with extra land purchase
+              shall be paid by the members.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---------------------------------------------------
+                        Main section ends
+     ----------------------------------------------------->
+    <!---------------------------------------------------
+                        Footer section starts
+     ----------------------------------------------------->
+
+    <footer class="footer">
+      <section on class="flex">
+        <div class="box">
+          <h1>Contact us</h1>
+          <a href="tel:123456789"><i class="fas fa-phone"></i><span>9967990931</span></a>
+          <a href="tel:112233445"><i class="fas fa-phone"></i><span>961987045</span></a>
+          <a href="mailto:ksiddhapura07@gmail.com"
+            ><i class="fas fa-envelope"></i><span>ksiddhapura07@gmail.com</span></a
+          >
+          <a href=""><i class="fas fa-home"></i><span>Mumbai , India-400066</span></a>
+        </div>
+
+        <div class="box">
+          <h1>Quicklinks</h1>
+          <a href="Home.html"><span>Home</span></a>
+          <a href="#project"><span>Projects</span></a>
+          <a href="Home.html"><span>We buy land</span></a>
+          <a href="Home.html"><span>Custom Homes</span></a>
+          <a href="Home.html"><span>Reconstruction</span></a>
+          <a href="contact.html"><span>Contact</span></a>
+          <a href="about.html"><span>About</span></a>
+        </div>
+
+        <div class="box">
+          <h1>Find us</h1>
+          <a href="https://instagram.com/deeval_developers?igshid=YmMyMTA2M2Y="
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="https://wa.me/9967990931"> <i class="fab fa-whatsapp"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+        </div>
+      </section>
+      <div class="credit">
+        &copy; copyright @ 2023 by <span>KD GROUP</span> | all rights reserved!
+      </div>
+    </footer>
+
+    <!---------------------------------------------------
+                        Footer section ends
+     ----------------------------------------------------->
+
+    <!---------------------------------------------------
+                        Scroll up button 
+     ----------------------------------------------------->
+    <button class="top">
+      <i class="fas fa-angle-up"></i>
+    </button>
+
+    <!---------------------------------------------------
+                      Javascript file link
+     ----------------------------------------------------->
+    <script src="scrollup.js"></script>
+    <script src="nav-click.js"></script>
+    <script src="redevelopment-faq.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+  </body>
+</html>

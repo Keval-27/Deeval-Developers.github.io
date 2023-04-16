@@ -1,0 +1,436 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.heading-container {
+    background-image: url("Redevelopment/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.heading-text {
+    padding: 2rem 8rem;
+    position: absolute;
+    background-color: black;
+    top: 60%;
+    color: #66fcf1;
+}
+
+.heading-text h1 {
+    font-size: 3rem;
+}
+
+.heading-text h2 {
+    font-size: 1rem;
+}
+
+
+/* redevelopment form */
+
+.redevelopment-form {
+    background: #c5c6c7;
+    background-image: linear-gradient(90deg, #c5c6c7, #edf5e1);
+    height: auto;
+    width: 100%;
+    padding: 3rem 0;
+}
+
+.redevelopment-form h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.redevelopment-form h1 span {
+    color: #05376b;
+}
+
+.form-details {
+    display: flex;
+    justify-content: center;
+    border-radius: .5rem;
+    padding: 3rem;
+    gap: 1rem;
+}
+
+.form-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.form-input {
+    position: relative;
+    width: 25rem;
+    margin: 1rem 0;
+    border-bottom: 2px solid #0b0c10;
+    justify-content: center;
+}
+
+
+.form-input input {
+    position: relative;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    color: #05376b;
+}
+
+.form-box form button {
+    width: 100%;
+    height: 2rem;
+    border-radius: .2rem;
+    background: #05376b;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.form-box form button:hover {
+    background-color: #031533;
+}
+
+.redevelopment-image img {
+    width: 30rem;
+    height: 30rem;
+}
+
+/* features section */
+
+.feature-section {
+    background-image: url("Redevelopment/features-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 3rem 0;
+}
+
+.feature-header {
+    padding: 0 15rem;
+    text-align: center;
+}
+
+.feature-header h1 {
+    font-size: 2.5rem;
+    padding: 1rem 0;
+}
+
+.feature-header h1 span {
+    color: #05376b;
+}
+
+.feature-header p {
+    line-height: 1.7;
+    padding-bottom: 1rem;
+}
+
+.feature-container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+    gap: 2%;
+}
+
+.feature-box {
+    padding: 2rem 0;
+    text-align: center;
+    width: 15rem;
+}
+
+.feature-box h4 {
+    padding-top: 2rem;
+}
+
+
+/* info section */
+
+
+.redevelopment-info {
+    width: 100%;
+    height: auto;
+    padding: 3rem 0;
+
+}
+
+.redevelopment-box {
+    width: 100%;
+    padding: 0 14rem;
+    text-align: center;
+}
+
+.redevelopment-content h1 {
+    font-size: 2.5rem;
+    padding: 1rem 0;
+}
+
+.redevelopment-content h1 span {
+    color: #05376b;
+}
+
+.redevelopment-content p {
+    font-size: .9rem;
+    padding: .5rem 0;
+    line-height: 1.7;
+}
+
+.redevelopment-img {
+    width: 100%;
+    position: relative;
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: .2rem;
+}
+
+.redevelopment-img img {
+    width: 50%;
+    height: 30rem;
+}
+
+.redevelopment-img .img-text {
+    text-transform: capitalize;
+    position: absolute;
+    top: 50%;
+    /* opacity: 0; */
+}
+
+.redevelopment-img .img-text:last-child {
+    right: -.3%;
+}
+
+.redevelopment-img .img-text h3 {
+    background-color: #05376b;
+    color: #fff;
+    padding: .5rem 1rem;
+}
+
+/* .redevelopment-img .img-text:hover {
+    opacity: 1;
+} */
+
+
+/* faq section */
+
+.faq-section {
+    width: 100%;
+    height: auto;
+    background-color: #edf5e1;
+}
+
+.faq-container {
+    width: 100%;
+    padding: 2rem 15rem;
+}
+
+.faq-container h1 {
+    font-size: 1.5rem;
+    padding: 2rem 0;
+}
+
+.faq-box {
+    width: 100%;
+    padding-left: 1.5rem;
+    border-left: .1px solid #0b0c10;
+}
+
+.faq-box.active {
+    border-left: 2px solid #05376b;
+}
+
+
+.question {
+    padding: 2rem;
+    display: flex;
+    position: relative;
+    align-items: center;
+    cursor: pointer;
+}
+
+.question span:first-child {
+    font-weight: 700;
+    padding-right: 2rem;
+}
+
+.question .open,
+.question .close {
+    position: absolute;
+    right: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    opacity: 0;
+}
+
+.question .open.active,
+.question .close.active {
+    opacity: 1;
+}
+
+.question p {
+    font-weight: lighter
+}
+
+.answer {
+    padding: 0 2.5rem;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.answer.active {
+    max-height: fit-content;
+}
+
+.answer ul {
+    padding: 0 2rem;
+    line-height: 2.5;
+}
+
+
+
+/*-------> ===========================
+            Responsive code
+============================<---------*/
+
+
+@media(max-width:1100px) {
+
+    /* feature section */
+    .feature-header {
+        padding: 0 10rem;
+    }
+
+    /* info section */
+
+    .redevelopment-box {
+        padding: 0 10rem;
+    }
+
+    /* faq section */
+
+    .faq-container {
+        padding: 2rem 10rem;
+    }
+}
+
+@media(max-width:900px) {
+
+    /* feature section */
+    .feature-header {
+        padding: 0 5rem;
+    }
+
+    /* info section */
+
+    .redevelopment-box {
+        padding: 0 5rem;
+    }
+
+    /* faq section */
+
+    .faq-container {
+        padding: 2rem 5rem;
+    }
+}
+
+
+@media(max-width:730px) {
+
+    .heading-text {
+        padding: 2rem 6rem;
+    }
+
+    /* redevelopment form */
+
+    .form-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-input {
+        width: 30rem;
+    }
+
+    .redevelopment-image img {
+        width: 35rem;
+        height: 35rem;
+    }
+
+
+    .redevelopment-img img {
+        width: 50%;
+        height: 20rem;
+    }
+
+}
+
+@media(max-width:450px) {
+
+    /* header section */
+
+    .heading-text {
+        padding: 2rem 2rem;
+    }
+
+    .heading-text h1 {
+        font-size: 2rem;
+    }
+
+    .heading-text h2 {
+        font-size: .9rem;
+    }
+
+    /* redevelopment form */
+    .redevelopment-content h1 {
+        font-size: 2rem;
+        padding: 1rem 0;
+    }
+
+    .form-input {
+        width: 20rem;
+    }
+
+    .redevelopment-image img {
+        width: 25rem;
+        height: 25rem;
+    }
+
+    /* feature section */
+
+    .feature-header {
+        padding: 0 2rem;
+    }
+
+    .feature-header h1 {
+        font-size: 2rem;
+        padding: 1rem 0;
+    }
+
+    /* info section */
+
+    .redevelopment-box {
+        padding: 0 2rem;
+    }
+
+    /* faq section */
+
+    .faq-container {
+        padding: 2rem 1rem;
+    }
+
+    .redevelopment-img img {
+        width: 50%;
+        height: 10rem;
+    }
+
+}

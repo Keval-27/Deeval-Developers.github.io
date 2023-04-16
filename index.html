@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deeval Developers</title>
+    <link rel="icon" type="image/x-icon" href="image\Website logo.png" />
+
+    <!--------------------------------------------------- 
+                        Css file link
+     ----------------------------------------------------->
+
+    <link rel="stylesheet" href="navigation.css" />
+    <link rel="stylesheet" href="image-slider.css" />
+    <link rel="stylesheet" href="about-section.css" />
+    <link rel="stylesheet" href="project.css" />
+    <link rel="stylesheet" href="Redefining.css" />
+    <link rel="stylesheet" href="Core values.css" />
+    <link rel="stylesheet" href="award.css" />
+    <link rel="stylesheet" href="comment.css" />
+    <link rel="stylesheet" href="Quicklink.css" />
+
+    <link rel="stylesheet" href="swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <!---------------------------------------------------
+                        Header section starts
+     ----------------------------------------------------->
+    <header class="header">
+      <div class="logo">
+        <img src="image\Website logo.png" alt="" />
+      </div>
+      <!-- Navigation bar starts -->
+      <nav>
+        <div class="navbar">
+          <ul class="navbar-list">
+            <!-- <li><a class="navbar-link home-page" href="Home.html">Home</a></li> -->
+            <li class="dropdown" onclick="onclickfunction()">
+              <a class="navbar-link nested-nav"> Projects <i class="fa fa-caret-down"></i></a>
+
+              <ul class="nested-list" id="mydropdown">
+                <li onclick="allfunction()"><a class="subnav-link" href="#project">ALL</a></li>
+                <li onclick="westernfunction()">
+                  <a class="subnav-link" href="#project">WESTERN</a>
+                </li>
+                <li onclick="centralfunction()">
+                  <a class="subnav-link" href="#project">CENTRAL</a>
+                </li>
+                <li onclick="harbourfunction()">
+                  <a class="subnav-link" href="#project">HARBOUR</a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown" onclick="onclickfunction2()">
+              <a class="navbar-link nested-nav">Service <i class="fa fa-caret-down"></i> </a>
+
+              <ul class="nested-list" id="mydropdown2">
+                <li><a class="subnav-link" href="we-buy-land.html">WE BUY LAND</a></li>
+                <li><a class="subnav-link" href="custom-home.html">CUSTOM HOMES</a></li>
+                <li><a class="subnav-link" href="Redevelopment.html">REDEVELOPMENT</a></li>
+              </ul>
+            </li>
+            <li><a class="navbar-link" href="About-us.html">About us</a></li>
+            <li>
+              <a class="navbar-link" href="Contact-us.html">Contact us</a>
+            </li>
+            <!-- <li><a class="navbar-link" href="#">Register</a></li> -->
+          </ul>
+        </div>
+      </nav>
+      <!-- Navigation bar ends -->
+      <!-- Menu-button -->
+      <div class="navbar-btn">
+        <ion-icon name="menu-outline" class="nav-icon"></ion-icon>
+        <ion-icon name="close-circle-outline" class="nav-icon"></ion-icon>
+      </div>
+    </header>
+    <!---------------------------------------------------
+                        Header section ends
+     ----------------------------------------------------->
+
+    <!---------------------------------------------------
+                       Image slider section starts
+     ----------------------------------------------------->
+    <section class="imageslider-box">
+      <div class="image-container active">
+        <div class="imageslider active">
+          <div class="slider-content">
+            <h1>Title 1</h1>
+            <h2>We create valuable land marks</h2>
+            <a href="About-us.html" class="button">Know More</a>
+          </div>
+          <div class="slider-image">
+            <img src="image\image 1.jpg" alt="" />
+          </div>
+          <div class="div"></div>
+        </div>
+      </div>
+
+      <div class="image-container">
+        <div class="imageslider">
+          <div class="slider-content">
+            <h1>Title 2</h1>
+            <h2>We create valuable land marks</h2>
+            <a href="About-us.html" class="button">Know More</a>
+          </div>
+          <div class="slider-image">
+            <img src="image\image 3.jpeg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="image-container">
+        <div class="imageslider">
+          <div class="slider-content">
+            <h1>Title 3</h1>
+            <h2>We create valuable land marks</h2>
+            <a href="About-us.html" class="button"> Know More</a>
+          </div>
+          <div class="slider-image">
+            <img src="image\image 4.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="image-container">
+        <div class="imageslider">
+          <div class="slider-content">
+            <h1>Title 4</h1>
+            <h2>We create valuable land marks</h2>
+            <a href="About-us.html" class="button"> Know More</a>
+          </div>
+          <div class="slider-image">
+            <img src="image\image.5.avif" alt="" />
+          </div>
+        </div>
+      </div>
+      <div id="next" onclick="slide_slider(1)">
+        <i class="fas fa-angle-right"></i>
+      </div>
+      <div id="prev" onclick="slide_slider(-1)">
+        <i class="fas fa-angle-left"></i>
+      </div>
+
+      <div class="slider-nav">
+        <span onclick="btn_slider(1)"> </span>
+        <span onclick="btn_slider(2)"> </span>
+        <span onclick="btn_slider(3)"> </span>
+        <span onclick="btn_slider(4)"> </span>
+      </div>
+    </section>
+
+    <!---------------------------------------------------
+                       Image slider section ends
+     ----------------------------------------------------->
+
+    <!---------------------------------------------------
+                       About section starts
+     ----------------------------------------------------->
+    <section class="about-container">
+      <div class="about-box">
+        <div class="about-content">
+          <h1>WE CREATE <span>VALUABLE LANDMARKS</span></h1>
+          <p>
+            Deeval Group has been built on
+            <span> trust, reliability, integrity and thoughtfulness .</span> Since its inception,
+            the trust of the people in Deeval Group has been the foundation for our success and
+            their unwavering faith motivates us to serve even more.
+          </p>
+          <p>
+            Challenging the standard requires extraordinary mental fortitude and unprecedented
+            conviction in the team. It is the strength of our determination, to serve the customers
+            and offer a dream home within their budget, that motivates us every day to challenge the
+            status quo.
+          </p>
+          <p>
+            Deeval group has constantly supported very diverse thinking with regards to spaces and
+            that is the reason why customers today perceive Deeval Group as one of
+            <span> Mumbai’s premium builders & developers </span>, listed among the leading brands
+            in the city.
+          </p>
+          <div class="about-btn">
+            <a href="About-us.html">Read More</a>
+          </div>
+        </div>
+        <div class="about-image">
+          <img src="image\about-section 1.png" alt="" />
+        </div>
+      </div>
+
+      <div class="about-box1">
+        <div class="about-image1">
+          <img src="image\about-section 2.jpg" alt="" />
+        </div>
+        <div class="about-content1">
+          <h1>THE VALUE OF <span>GRANDEUR</span></h1>
+          <p>
+            Every home, in our opinion at Ambit Realtors, contains the possibility of a fresh start.
+            a fresh chapter in a life full of valuable prospects. Our tagline, Values, That Add
+            Value, was inspired by the fact that practically all of our projects add a sense of
+            value to your already exceptional life.
+          </p>
+          <div class="counter-section">
+            <div class="counter-container">
+              <h1 class="counter-num" data-number="2000">0<span>+</span></h1>
+              <h3>HAPPY FAMILIES</h3>
+            </div>
+            <div class="counter-container">
+              <h1 class="counter-num" data-number="1500">0<span>K+</span></h1>
+              <h3>DELIVERED AREA</h3>
+            </div>
+            <div class="counter-container">
+              <h1 class="counter-num" data-number="15">0<span>+</span></h1>
+              <h3>YEARS OF EXPERIENCE</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---------------------------------------------------
+                       About section ends
+     ----------------------------------------------------->
+
+    <!---------------------------------------------------
+                        Project section starts
+     ----------------------------------------------------->
+    <section id="project" class="projects">
+      <h1>Featured Projects</h1>
+      <div class="all-building">
+        <div id="western-building-1" class="building">
+          <a href="The-palazzo.html"><img src="The palazzo\the_palazzo_project.jpg" alt="" /></a>
+          <div class="address">
+            <p><span>The palazzo</span></p>
+            <p><i class="fas fa-map-marker-alt"></i><span>Santacruz (E)</span></p>
+          </div>
+
+          <a href="The-palazzo.html" class="btn"> Explore Property</a>
+        </div>
+
+        <div id="western-building-2" class="building">
+          <a href="Ananda.html"><img src="Ananda Residency\ananda residency.jfif" alt="" /> </a>
+          <div class="address">
+            <p><span>Ananda</span></p>
+            <p><i class="fas fa-map-marker-alt"></i><span>Borivali (w)</span></p>
+          </div>
+          <div>
+            <a href="Ananda.html" class="btn"> Explore Property</a>
+          </div>
+        </div>
+
+        <div id="western-building-3" class="building">
+          <a href="Sheetal-Anupam.html">
+            <img src="Sheetal Anupam\Sheetal Anupam-profile.png" alt="" />
+          </a>
+          <div class="address">
+            <p><span>Sheetal Anupam</span></p>
+            <p><i class="fas fa-map-marker-alt"></i><span>Malad (W)</span></p>
+          </div>
+          <div>
+            <a href="Sheetal-Anupam.html" class="btn"> Explore Property</a>
+          </div>
+        </div>
+
+        <div id="central-building-1" class="building">
+          <a href="Blumen.html">
+            <img src="Blumen\blumen_profile.jpg" alt="" />
+          </a>
+          <div class="address">
+            <p><span>Blumen</span></p>
+            <p><i class="fas fa-map-marker-alt"></i><span>Vikhroli (W)</span></p>
+          </div>
+          <div>
+            <a href="Blumen.html" class="btn"> Explore Property</a>
+          </div>
+        </div>
+
+        <div id="central-building-2" class="building">
+          <a href="Krishna-anand.html">
+            <img src="Krishna Anand\Krishna-anand-profile.jpg" alt="" />
+          </a>
+          <div class="address">
+            <p><span>Krishna Anand</span></p>
+            <p><i class="fas fa-map-marker-alt"></i><span>Kalyan (E)</span></p>
+          </div>
+          <div>
+            <a href="Krishna-anand.html" class="btn"> Explore Property</a>
+          </div>
+        </div>
+
+        <div id="harbour-building-1" class="building">
+          <a href="Supreme Elenor.html">
+            <img src="Supreme Elenor\supreme-Elenor-profile.jpg" alt="" />
+          </a>
+          <div class="address">
+            <p><span>Elenor</span></p>
+            <p><i class="fas fa-map-marker-alt"></i><span>Govandi (W)</span></p>
+          </div>
+          <div>
+            <a href="Supreme Elenor.html" class="btn"> Explore Property</a>
+          </div>
+        </div>
+
+        <div id="harbour-building-2" class="building">
+          <a href="Aayush Gulmohar.html">
+            <img src="Aayush Gulmohar\Aayush-gulmohar-profile.png" alt="" />
+          </a>
+          <div class="address">
+            <p><span>Gulmohar</span></p>
+            <p><i class="fas fa-map-marker-alt"></i><span>Chembur (E)</span></p>
+          </div>
+          <div>
+            <a href="Aayush Gulmohar.html" class="btn"> Explore Property</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---------------------------------------------------
+                        Project section Ends
+     ----------------------------------------------------->
+
+    <!---------------------------------------------------
+                        Redefining section Starts
+     ----------------------------------------------------->
+    <section class="Redefining">
+      <div class="Redefining-container">
+        <div class="Redefining-image1">
+          <img src="image\Redefining image 1.avif" alt="" />
+        </div>
+        <div class="Redefining-content">
+          <h1>Redefining <span> Mumbai's Landscapes</span></h1>
+          <p>
+            Being a notable name amongst residential property developers & luxury property
+            developers, with over <span> 1500000 sq.ft</span> developed and redeveloped area under
+            its name, <span>Deeval Developers</span> values an enhanced lifestyle coupled with a
+            sustainable environment and assures you the same.
+          </p>
+        </div>
+        <div class="Redefining-image2">
+          <img src="image\Redefining image 2.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!---------------------------------------------------
+                    Redefining section Ends
+     ----------------------------------------------------->
+
+    <!---------------------------------------------------
+                   Core Values section Starts
+     ----------------------------------------------------->
+    <section class="Values">
+      <div class="values-section">
+        <h1>Our Core <span> Values</span></h1>
+        <div class="values-container">
+          <div class="value-box">
+            <div class="value-heading">
+              <i class="fab fa-unity"></i>
+              <h1>Unity</h1>
+            </div>
+            <div class="value-content">
+              <p>
+                Often, the best of teams fail, when there is no unity of purpose. At Deeval
+                Developers, we stand united in our purpose of making Deeval Developers the most
+                trusted name in the realty business, not just in the domestic market, but
+                internationally. We take immense pride in our success journey by far and are united
+                by building a strong culture of trust and transparency within and outside the
+                organization.
+              </p>
+            </div>
+          </div>
+
+          <div class="value-box">
+            <div class="value-heading">
+              <i class="fas fa-hands-helping"></i>
+              <h1>Responsibility</h1>
+            </div>
+            <div class="value-content">
+              <p>
+                At Deeval Developers, we strongly believe having goals is important, but far more
+                important is shouldering the responsibility of meeting those goals in time with
+                sustained effort, perseverance and total dedication in a planned, goal-directed
+                manner.
+              </p>
+            </div>
+          </div>
+
+          <div class="value-box">
+            <div class="value-heading">
+              <i class="fa fa-bullseye"></i>
+              <h1>Ambition</h1>
+            </div>
+            <div class="value-content">
+              <p>
+                We’ve learnt that only big goals lead to big successes. At Deeval Developers, we
+                place great emphasis on planning and stability to set very high bars for ourselves
+                in order to achieve all our time-bound goals.
+              </p>
+            </div>
+          </div>
+
+          <div class="value-box">
+            <div class="value-heading">
+              <i class="fa fa-rocket"></i>
+              <h1>Speed</h1>
+            </div>
+            <div class="value-content">
+              <p>
+                The adoption of technological upgradation is the essence of our realty industry.
+                Agile and innovative, we are quick and sharp in acquiring new skills and re-aligning
+                our operational processes with newer technologies. At Deeval Developers, we are
+                prepared to meet these challenges head-on.
+              </p>
+            </div>
+          </div>
+
+          <div class="value-box">
+            <div class="value-heading">
+              <i class="fas fa-cog"></i>
+              <h1>Collaboration</h1>
+            </div>
+            <div class="value-content">
+              <p>
+                We believe that the greatest achievements are impossible without focussed team
+                effort. At Deeval Developers, our definition of a team is a group of competent,
+                committed professionals sharing a common vision, purpose and identity of an
+                organization.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---------------------------------------------------
+                   Core Values section Ends
+     ----------------------------------------------------->
+
+    <!---------------------------------------------------
+                        AWARDS  section starts
+     ----------------------------------------------------->
+    <section class="awards">
+      <div class="award-section">
+        <h1>AWARDS & <span>RECOGNITIONS</span></h1>
+        <p>As a real estate builder, we love the acknowledgement that follows the hard work.</p>
+        <div class="award-container">
+          <div class="award-box">
+            <div class="award-image">
+              <img src="image\award 1.png" alt="" />
+            </div>
+            <div class="award-content">
+              <h3>Real Estate Grand Champions Awards 2021</h3>
+              <p>Best Developer for slum Rehabilitation projects in Mumbai</p>
+            </div>
+          </div>
+          <div class="award-box">
+            <div class="award-image">
+              <img src="image\award 2.png" alt="" />
+            </div>
+            <div class="award-content">
+              <h3>Incredible Brands of India Awards 2022</h3>
+              <p>
+                Remarkable Achievement awards for Outstanding Contribution in Real estate Sector
+                (SRA)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---------------------------------------------------
+                        AWARDS  section ends
+     ----------------------------------------------------->
+    <!---------------------------------------------------
+                        Comment Section section starts
+     ----------------------------------------------------->
+
+    <section class="comment-section">
+      <h1>Client <span> Testimonials</span></h1>
+      <div class="comment-btn">
+        <p>A happy client is all that we seek, read through some of the love sent our way</p>
+        <div id="nxt" onclick="comment_slider(1)">
+          <i class="fas fa-angle-right"></i>
+        </div>
+        <div id="previous" onclick="comment_slider(-1)">
+          <i class="fas fa-angle-left"></i>
+        </div>
+      </div>
+
+      <div class="comment-box active">
+        <i class="fas fa-comment-dots"></i>
+        <div class=".comment-content">
+          <p>
+            Deeval team was quick to understand my needs and steer me in the right direction. Their
+            professionalism and warmth made the process of finding a suitable home a lot less
+            stressful than It could have been. Thanks, Deeval!! You made it seem easy.
+          </p>
+          <div class="dots">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <h2>Keval</h2>
+        </div>
+      </div>
+      <div class="comment-box">
+        <i class="fas fa-comment-dots"></i>
+        <div class=".comment-content">
+          <p>
+            We got the best support from Deeval Developers team. From initial process to possession
+            which includes pre and post sales they were very co-operative, and we are extremely
+            happy to be a Deeval Developers customer.
+          </p>
+          <div class="dots">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <h2>Jay</h2>
+        </div>
+      </div>
+      <div class="comment-box">
+        <i class="fas fa-comment-dots"></i>
+        <div class=".comment-content">
+          <p>
+            "For us, Deeval Developers is a perfect combination of lifestyle & affordable pricing."
+          </p>
+          <div class="dots">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <h2>Mr. & Mrs. Gohil</h2>
+        </div>
+      </div>
+      <div class="comment-box">
+        <i class="fas fa-comment-dots"></i>
+        <div class=".comment-content">
+          <p>
+            "We are happy to be a part of Deeval Developers especially the quality of construction
+            is excellent."
+          </p>
+          <div class="dots">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <h2>Deepit</h2>
+        </div>
+      </div>
+
+      <div class="comment-nav">
+        <span onclick="comment_slide(1)"> </span>
+        <span onclick="comment_slide(2)"> </span>
+        <span onclick="comment_slide(3)"> </span>
+        <span onclick="comment_slide(4)"> </span>
+      </div>
+    </section>
+
+    <!---------------------------------------------------
+                        Comment Section section End
+     ----------------------------------------------------->
+
+    <!---------------------------------------------------
+                        Footer section starts
+     ----------------------------------------------------->
+
+    <footer class="footer">
+      <section on class="flex">
+        <div class="box">
+          <h1>Contact us</h1>
+          <a href="tel:123456789"><i class="fas fa-phone"></i><span>9967990931</span></a>
+          <a href="tel:112233445"><i class="fas fa-phone"></i><span>961987045</span></a>
+          <a href="mailto:ksiddhapura07@gmail.com"
+            ><i class="fas fa-envelope"></i><span>ksiddhapura07@gmail.com</span></a
+          >
+          <a href=""><i class="fas fa-home"></i><span>Mumbai , India-400066</span></a>
+        </div>
+
+        <div class="box">
+          <h1>Quicklinks</h1>
+          <a href="Home.html"><span>Home</span></a>
+          <a href="#project"><span>Projects</span></a>
+          <a href="Home.html"><span>We buy land</span></a>
+          <a href="Home.html"><span>Custom Homes</span></a>
+          <a href="Home.html"><span>Reconstruction</span></a>
+          <a href="contact.html"><span>Contact</span></a>
+          <a href="about.html"><span>About</span></a>
+        </div>
+
+        <div class="box">
+          <h1>Find us</h1>
+          <a href="https://instagram.com/deeval_developers?igshid=YmMyMTA2M2Y="
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="https://wa.me/9967990931"> <i class="fab fa-whatsapp"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+        </div>
+      </section>
+      <div class="credit">
+        &copy; copyright @ 2023 by <span>KD GROUP</span> | all rights reserved!
+      </div>
+    </footer>
+
+    <!---------------------------------------------------
+                        Footer section ends
+     ----------------------------------------------------->
+    <!---------------------------------------------------
+                        Scroll up button 
+     ----------------------------------------------------->
+    <button class="top">
+      <i class="fas fa-angle-up"></i>
+    </button>
+
+    <!---------------------------------------------------
+                      Javascript file link
+     ----------------------------------------------------->
+    <script src="scrollup.js"></script>
+    <script src="nav-click.js"></script>
+    <script src="image-slider.js"></script>
+    <script src="counter.js"></script>
+    <script src="project.js"></script>
+    <script src="comment.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <!-- <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> -->
+  </body>
+</html>

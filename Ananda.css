@@ -1,0 +1,489 @@
+/*-------> ===========================
+             Building Name Css
+============================<---------*/
+
+.image {
+    background-image: url("Ananda Residency/gallery 1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 92vh;
+    background-attachment: fixed;
+}
+
+.text {
+    padding: 2rem 8rem;
+    position: absolute;
+    background-color: black;
+    top: 60%;
+    color: #66fcf1;
+}
+
+.text h1 {
+    font-size: 2.5rem;
+}
+
+.text h2 {
+    font-size: 1rem;
+}
+
+/*-------> ===========================
+         Project Introduction Css 
+============================<---------*/
+
+.intro {
+    width: 100%;
+    text-align: center;
+    background-image: url('image/image 6.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 1);
+    color: #66fcf1;
+}
+
+.intro h1 {
+    text-transform: uppercase;
+    text-decoration: underline .2rem;
+    text-underline-offset: .5rem;
+    padding: 3rem 0;
+    font-size: 2.5rem;
+}
+
+.details {
+    padding: 3rem 10rem;
+    font-size: 1.1rem;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 3rem;
+}
+
+.size {
+    width: 15rem;
+    padding: 1rem 4rem;
+    border-left: solid;
+}
+
+.size:first-child {
+    border: 0;
+}
+
+.size h1 {
+    text-transform: none;
+    padding: .5rem;
+    padding-bottom: 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.size h2 {
+    font-size: .9rem;
+}
+
+.size img {
+    padding: .5rem;
+    background-color: beige;
+    width: 5rem;
+    height: 5rem;
+    border-radius: .5rem;
+}
+
+/*-------> ===========================
+         Amenities Section Css
+============================<---------*/
+
+.Amenities {
+    width: 100%;
+    text-align: center;
+    color: #66fcf1;
+    background-color: #0b0c10;
+    /* border-bottom: .1rem solid #66fcf1; */
+}
+
+.Amenities h1 {
+    text-transform: uppercase;
+    text-decoration: underline .2rem;
+    text-underline-offset: .5rem;
+    padding: 3rem 0;
+    font-size: 2.5rem;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 15rem;
+    padding-bottom: 3rem;
+}
+
+.features {
+    width: 14rem;
+    padding: 0 2rem;
+    padding-bottom: 1rem;
+}
+
+.features h1 {
+    text-transform: none;
+    padding: .5rem;
+    padding-top: 1rem;
+    text-decoration: none;
+    font-size: .9rem;
+    /* background-color: #c5c6c7; */
+}
+
+.features img {
+    padding: .5rem;
+    background-color: beige;
+    width: 6rem;
+    height: 6rem;
+    border-radius: .5rem;
+}
+
+/*-------> ===========================
+             Floor Plan
+============================<---------*/
+
+.floorplan {
+    background-image: url('The palazzo/floorplan background img.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-color: #0b0c10; */
+    padding: 3rem 0;
+}
+
+.floorplan h1 {
+    text-transform: uppercase;
+    text-decoration: underline .2rem;
+    text-underline-offset: .5rem;
+    color: #66fcf1;
+    text-align: center;
+    font-size: 2.5rem;
+
+}
+
+.slider-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin-top: -4rem;
+}
+
+.floor {
+    width: 60rem;
+    height: 70vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.floor .floorimg {
+    width: 100%;
+    height: 100%;
+}
+
+.floorimg img {
+    border-radius: .5rem;
+    width: 100%;
+    height: 100%;
+}
+
+.sidearrow-visibility {
+    margin-top: -5rem;
+    justify-content: center;
+    bottom: 20px;
+    display: flex;
+}
+
+.sidearrow-visibility span {
+    height: 1rem;
+    width: 1rem;
+    border: 2px solid #0b0c10;
+    margin: 0 .3rem;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.slide-btn .slide {
+    position: absolute;
+    align-items: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    justify-content: center;
+    color: #c5c6c7;
+
+}
+
+.slide i {
+    cursor: pointer;
+    font-size: 2rem;
+    line-height: 3.5rem;
+    margin-left: 1.2rem;
+}
+
+.slide-btn .right {
+    margin-top: -24rem;
+    right: 10%;
+}
+
+.slide-btn .left {
+    margin-top: -24rem;
+    left: 10%;
+}
+
+/*-------> ===========================
+             Gallery
+============================<---------*/
+.gallery-section {
+    background-image: url('The palazzo/gallery background 2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 3rem 0;
+}
+
+.gallery-section h1 {
+    text-transform: uppercase;
+    text-decoration: underline .2rem;
+    text-underline-offset: .5rem;
+    color: #66fcf1;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.gallery-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin-top: -4rem;
+}
+
+.galley {
+    width: 60rem;
+    height: 70vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.galley .gallery-photos {
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-photos img {
+    border-radius: .5rem;
+    width: 100%;
+    height: 100%;
+}
+
+.sidearrow-visibility1 {
+    margin-top: -5rem;
+    justify-content: center;
+    bottom: 20px;
+    display: flex;
+}
+
+.sidearrow-visibility1 span {
+    height: 1rem;
+    width: 1rem;
+    border: 2px solid #0b0c10;
+    margin: 0 .3rem;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.slide-btn1 .slide1 {
+    position: absolute;
+    align-items: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    justify-content: center;
+    color: #c5c6c7;
+
+}
+
+.slide1 span {
+    cursor: pointer;
+    font-size: 2rem;
+    line-height: 3.5rem;
+    margin-left: 1.2rem;
+}
+
+.slide-btn1 .right1 {
+    margin-top: -24rem;
+    right: 10%;
+}
+
+.slide-btn1 .left1 {
+    margin-top: -24rem;
+    left: 10%;
+}
+
+/*-------> ===========================
+             Location
+============================<---------*/
+
+.location {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #0b0c10;
+    padding: 3rem;
+}
+
+.location h1 {
+    color: #66fcf1;
+    text-transform: uppercase;
+    text-decoration: underline .2rem;
+    text-underline-offset: .5rem;
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+}
+
+.map iframe {
+    width: 50rem;
+    height: 60vh;
+    border-radius: .5rem;
+    margin-bottom: 2rem;
+}
+
+/*-------> ===========================
+             Appontment 
+============================<---------*/
+.appointment {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    padding: 3rem;
+    background: #c5c6c7;
+    background-image: linear-gradient(90deg, #c5c6c7, #edf5e1);
+    align-items: center;
+}
+
+.appointment-container {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-details {
+    background: #0b0c10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    padding: 3rem;
+}
+
+.form-box form h2 {
+    font-size: 2rem;
+    color: #66fcf1;
+    text-align: center;
+    /* text-transform: uppercase; */
+    text-decoration: underline .2rem;
+    text-underline-offset: 1rem;
+    margin-bottom: 3rem;
+}
+
+.form-input {
+    margin: 1rem 0;
+    width: 22rem;
+    border-bottom: 2px solid #66fcf1;
+}
+
+
+.form-input input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    color: #c5c6c7;
+}
+
+.form-input textarea {
+    max-width: 22rem;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 0 1rem;
+    color: #c5c6c7;
+}
+
+.form-box form button {
+    width: 100%;
+    height: 2rem;
+    border-radius: .5rem;
+    background: #c5c6c7;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.building-logo {
+    padding: 5rem 0;
+    /* padding-right: 8rem; */
+    align-items: center;
+}
+
+.building-logo img {
+    width: 20rem;
+    height: 15rem;
+    right: 10%;
+}
+
+/*-------> ===========================
+             Project By
+============================<---------*/
+.project_by {
+    width: 100%;
+    height: 60vh;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #0b0c10;
+}
+
+.project_by h1 {
+    color: #66fcf1;
+    margin-bottom: 1rem;
+}
+
+.company_logo {
+    height: 9rem;
+}
+
+.company_logo img {
+    width: 7rem;
+    height: 7rem;
+    margin-bottom: 5rem;
+}
+
+.text1 p {
+    color: #66fcf1;
+    font-size: 1rem;
+}
+
+.text1 p span {
+    color: #c5c6c7;
+}
+
+.text1 :first-child {
+    margin-bottom: 1rem;
+}
